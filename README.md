@@ -13,10 +13,13 @@ $H_1$: $\mu_NonSmoker \ne $\mu_Smoker$
 - Mean reduction in Birth Weight of the smoking group was **8.9 oz.** (95% CI: 6.9, 11.0)
 - Effect Size: Cohen’s d of **0.51**  (95% CI: 0.39, 0.62). The confidence intervals shows a definite moderate effect size in the mean difference of birth weight between groups.
 
+## Key Plots
 ![Birth Weight by Maternal Smoking Status](./img/BirthWeighBoxPlot.png)
+
 The mean of the non-smoking group is 8.9 oz. (95% CI: 6.9, 11.0) higher than the mean of the smoking group. The confidence intervals do not fall below zero, showing compelling evidence that the difference is robust and unlikely due to mere chance. Blue and red dotted lines indicate the typical weight range for newborns that reach full gestation age [Nol2000] (pp. 3-4). You’ll notice some concerning outliers, especially, in the non-smoking group. The histogram plot below will indicate the magnitude of these outliers.
 
 ![Birth Weight by Maternal Smoking Status](./img/BirthWeightHistogram.png)
+
 Birth weight distribution for smoking mothers is bimodal and slightly negatively skewed (skewed left). This bimodal distribution could be caused by the daily amount smoked by mothers. Some mothers may only smoke a little and, therefore, their babies will be born slightly higher weight; those who smoke a lot, will most likely have sons that weigh less at birth (indicated by the left peak). There is also no information on whether the mother stopped smoking during pregnancy - this might lead to higher birth weight.
 The medians of both histograms are marked by dotted lines. Even though both distributions markedly overlap, Cohen’s d suggests the means of the two groups differ by about half of a standard deviation: Cohen's d: 0.51, 95% CI: [0.39 0.62]
 
