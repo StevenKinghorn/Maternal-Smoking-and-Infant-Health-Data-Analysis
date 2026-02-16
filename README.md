@@ -4,9 +4,11 @@
 
 ## Goal
 To investigate if there is a statistically significant difference in the birth weights of full-term, singleton baby boys to smoking and non-smoking mothers.
-$H_0$: $\mu_NonSmoker = $\mu_Smoker$
-$H_1$: $\mu_NonSmoker \ne $\mu_Smoker$
-**Test:** Welch’s t-test ($\alpha = 0.05)
+
+- $H_0$: $\mu_{NonSmoker} = \mu_{Smoker}$
+- $H_1$: $\mu_{NonSmoker} \ne \mu_{Smoker}$
+
+**Test:** Welch’s t-test ($\alpha = 0.05$)
 
 ## Key Findings
 - Null hypothesis rejected ($p<.001$)
@@ -16,11 +18,14 @@ $H_1$: $\mu_NonSmoker \ne $\mu_Smoker$
 ## Key Plots
 ![Birth Weight by Maternal Smoking Status](./img/BirthWeighBoxPlot.png)
 
-The mean of the non-smoking group is 8.9 oz. (95% CI: 6.9, 11.0) higher than the mean of the smoking group. The confidence intervals do not fall below zero, showing compelling evidence that the difference is robust and unlikely due to mere chance. Blue and red dotted lines indicate the typical weight range for newborns that reach full gestation age [Nol2000] (pp. 3-4). You’ll notice some concerning outliers, especially, in the non-smoking group. The histogram plot below will indicate the magnitude of these outliers.
+The mean of the non-smoking group is 8.9 oz. (95% CI: 6.9, 11.0) higher than the mean of the smoking group. The confidence intervals do not fall below zero, showing compelling evidence that the difference is robust and unlikely due to mere chance. 
+
+Blue and red dotted lines indicate the typical weight range for newborns that reach full gestation age [Nol2000] (pp. 3-4). You’ll notice some concerning outliers, especially, in the non-smoking group. The histogram plot below will indicate the magnitude of these outliers.
 
 ![Birth Weight by Maternal Smoking Status](./img/BirthWeightHistogram.png)
 
 Birth weight distribution for smoking mothers is bimodal and slightly negatively skewed (skewed left). This bimodal distribution could be caused by the daily amount smoked by mothers. Some mothers may only smoke a little and, therefore, their babies will be born slightly higher weight; those who smoke a lot, will most likely have sons that weigh less at birth (indicated by the left peak). There is also no information on whether the mother stopped smoking during pregnancy - this might lead to higher birth weight.
+
 The medians of both histograms are marked by dotted lines. Even though both distributions markedly overlap, Cohen’s d suggests the means of the two groups differ by about half of a standard deviation: Cohen's d: 0.51, 95% CI: [0.39 0.62]
 
 ## Limitations
